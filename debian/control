@@ -2,12 +2,16 @@ Source: telepathy-morse
 Section: net
 Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
-Build-Depends: debhelper (>= 9), libtelegram-qt5-dev, libtelepathy-qt5-dev (>= 0.9.7), qtbase5-dev,
+Build-Depends: cmake,
+               debhelper (>= 9),
+               libtelegram-qt5-dev,
+               libtelepathy-qt5-dev (>= 0.9.7),
+               qtbase5-dev
 Standards-Version: 3.9.8
 Homepage: https://github.com/TelepathyIM/telepathy-morse
 
 Package: telepathy-morse
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: telegram connection manager
  Morse is a Telegram connection manager for Telepathy
