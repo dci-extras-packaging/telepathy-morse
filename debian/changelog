@@ -1,0 +1,5 @@
+telepathy-morse (0.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Rohan Garg <rohan@kde.org>  Fri, 11 Nov 2016 20:28:35 +0100
