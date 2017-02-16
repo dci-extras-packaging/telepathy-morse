@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
 Build-Depends: cmake,
                debhelper (>= 9),
+               libssl1.0-dev,
                libtelegram-qt5-dev,
                libtelepathy-qt5-dev (>= 0.9.7),
                qtbase5-dev
